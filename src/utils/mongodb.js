@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const uri = 'mongodb+srv://v4x123:v4x123@cluster0.i3hnzcs.mongodb.net/addhere';
+const uri = 'mongodb+srv://v4x123:v4x123@cluster0.i3hnzcs.mongodb.net/M20A';
 export async function connectToDatabase() {
   try {
     await mongoose.connect(uri, {
@@ -18,3 +18,4 @@ export async function connectToDatabase() {
     console.log(error);
   }
 }
+
