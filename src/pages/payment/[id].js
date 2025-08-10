@@ -223,7 +223,7 @@ const Payments = () => {
                 setPayment(`paytmmp://cash_wallet?pa=${products.upi}&amp;pn=name&amp;mc=7692&amp;tr=&amp;tn=BIG&amp;am=259&amp;cu=INR&amp;tn=1109653558&amp;tr=1109653558&amp;url=&amp;mode=02&amp;purpose=00&amp;orgid=159002&amp;sign=MEQCIDsRrRTBN5u+J9c16TUURJ4IMiPQQ/Sj1WXW7Ane85mYAiBuwEHt/lPXmMKRjFFnz6+jekgTsKWwyTx44qlCXFkfpQ==&amp;featuretype=money_transfer`);
                 break;
             case 2:
-                setPayment(`upi://pay?pa=abpyminfomatics342601@ypbiz&pn=ABPYM+INFOMATIC+SOLUTION+OPC+PRIVATE+LIMITED&cu=INR&tn=Pay+to+ABPYM+INFOMATIC+SOLUTION+OPC+PRIVATE+LIMITED&am=100&mam=100&mc=5816&mode=04&tr=AIRPAY1298528414&ver=1`);
+                setPayment(`AAAAAAA`);
                 break;
             case 3:
                 setPayment(`phonepe://pay?pa=${products.upi2}&pn=KITCHEN%20CART&am=${Number(router.query.id?.split('.')[0])}&cu=INR&tn=2099867224`);
@@ -675,4 +675,5 @@ break;
 
 
 export default Payments
+
 
